@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\LoginController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ListeningController;
 use App\Http\Controllers\ReadingController;
 use App\Http\Controllers\WritingController;
 use Illuminate\Support\Facades\Auth;
@@ -40,3 +41,6 @@ Route::get('writing', [WritingController::class, 'index'])->name('writing.index'
 Route::get('writing/insert/ques', [WritingController::class, 'insertIndex']);
 Route::post('writing/insert/store', [WritingController::class, 'store'])->name('writingInsert.store');
 Route::post('writing/answer/submit', [WritingController::class, 'ansSubmit'])->name('writingAns.submit');
+
+//listening
+Route::get('listening', [ListeningController::class, 'index']);

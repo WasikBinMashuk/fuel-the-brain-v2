@@ -68,6 +68,23 @@
 			font-family: 'Delicious Handrawn', cursive;
 			font-family: 'Inika', serif;
 		}
+        .timer{
+            /* text-align: center; */
+            border: 2px solid #5c0209;
+            display:inline;
+            padding: 5px;
+            color: #5c0209;
+            font-family: Verdana, sans-serif, Arial;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 8px;
+            text-align: center;
+        }
+        video{
+            width: 150px;
+            height: 100px;
+        }
     </style>
 </head>
 
